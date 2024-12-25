@@ -1,0 +1,719 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <!-- required meta -->         
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@EnginAIOfficial">
+<meta name="twitter:title" content="PlayXAI">
+<meta name="twitter:description" content="Experience cutting-edge gaming like never before! PlayXAI is revolutionising top-tier games with our innovative blockchain & AI add-ins. Game-changers incoming!">
+<meta name="twitter:image" content="http://enginai.io/ENGINAITOKENLOGO3.png">
+        <!-- #favicon -->         
+        
+        <link rel="icon" href="./favicon.png">
+        <!-- #title -->         
+        <title>PlayXAI | Revolutionizing Gaming with AI and Blockchain</title>         
+        <!-- #keywords -->         
+        <meta name="keywords" content="Artificial, Ai, Network, blockchain"> 
+        <!-- #description -->         
+        <meta name="description" content="Revolutionizing Gaming with AI and Blockchain"> 
+        <!-- ==== css dependencies start ==== -->         
+        <!-- bootstrap five css -->         
+        <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css"> 
+        <!-- bootstrap icons css -->         
+        <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.min.css"> 
+        <!-- material icons css -->         
+        <link rel="stylesheet" href="assets/vendor/material-icons/css/materialicons.css"> 
+        <!-- font awesome six css -->         
+        <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.css"> 
+        <!-- magnific popup css -->         
+        <link rel="stylesheet" href="assets/vendor/magnific-popup/css/magnific-popup.css"> 
+        <!-- jquery ui css -->         
+        <link rel="stylesheet" href="assets/vendor/jquery-ui/css/jquery-ui.min.css"> 
+        <!-- slick css -->         
+        <link rel="stylesheet" href="assets/vendor/slick/css/slick.css"> 
+        <!-- odometer css -->         
+        <link rel="stylesheet" href="assets/vendor/odometer/css/odometer.css"> 
+        <!-- ==== / css dependencies end ==== -->         
+        <!-- main css -->         
+        <link rel="stylesheet" href="assets/css/main.css"> 
+    </head>     
+    <body> 
+        <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->         
+        <div class="my-app"> 
+            <!-- ==== preloader start ==== -->             
+            <div id="preloader"> 
+                <div id="ctn-preloader" class="ctn-preloader"> 
+                    <div class="animation-preloader"> 
+                        <div class="spinner"></div>                         
+                        <div class="txt-loading"> <span data-text-preloader="L" class="letters-loading"> 
+                     L </span> <span data-text-preloader="O" class="letters-loading"> 
+                     O </span> <span data-text-preloader="A" class="letters-loading"> 
+                     A </span> <span data-text-preloader="D" class="letters-loading"> 
+                     D </span> <span data-text-preloader="I" class="letters-loading"> 
+                     I </span> <span data-text-preloader="N" class="letters-loading"> 
+                     N </span> <span data-text-preloader="G" class="letters-loading"> 
+                     G </span> 
+                        </div>                         
+                    </div>                     
+                    <div class="loader-section section-left"></div>                     
+                    <div class="loader-section section-right"></div>                     
+                </div>                 
+            </div>             
+            <!-- ==== / preloader end ==== -->             
+            <!-- ==== mouse cursor drag start ==== -->             
+            <div class="mouseCursor cursor-outer"></div>             
+            <div class="mouseCursor cursor-inner"> <span>Drag</span> 
+            </div>             
+            <!-- ==== / mouse cursor drag end ==== -->             
+            <!-- ==== header start ==== -->             
+            <header class="header"> 
+                <div class="primary-navbar"> 
+                    <div class="container"> 
+                        <div class="row"> 
+                            <div class="col-12"> 
+                                <nav class="navbar p-0"> 
+                                    <div class="navbar__logo"> <a href="index.html" aria-label="home page" title="logo"> <img src="assets/images/Enginai.png" alt="Image" style="width:175px;"> </a> 
+                                    </div>                                     
+                                    <div class="navbar__menu"> 
+                                        <ul class="navbar__list"> 
+                                            <li class="navbar__item nav-fade"> <a href="index.html">Home</a> 
+                                            </li>                                             
+                                            <li class="navbar__item nav-fade"> <a href="https://app.enginai.io/stakes/enai-staking/">Stacking</a> 
+                                            </li>                                             
+                                            <li class="navbar__item nav-fade"> <a href="https://ifrices-organization.gitbook.io/playx-ai/">Doc</a> 
+                                            </li>                                             
+                                        </ul>                                         
+                                    </div>                                     
+                                    <div class="navbar__options"> 
+                                        <div class="cta"> <a href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000" class="btn btn--primary custom-btn">Buy Now</a> 
+                                        </div>                                         
+                                        <button class="open-mobile-menu d-flex d-xl-none" aria-label="toggle mobile menu" title="open mobile menu"> <i class="material-symbols-outlined"> 
+                              menu_open </i> 
+                                        </button>                                         
+                                    </div>                                     
+                                </nav>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                    <!-- ==== mobile menu start ==== -->                     
+                    <div class="mobile-menu d-block d-xl-none"> 
+                        <nav class="mobile-menu__wrapper"> 
+                            <div class="mobile-menu__header nav-fade"> 
+                                <div class="navbar__logo"> <a href="index.html" aria-label="home page" title="logo"> <img src="assets/images/Enginai.png" alt="Image" style="width:175px;"> </a> 
+                                </div>                                 
+                                <button aria-label="close mobile menu" class="close-mobile-menu"> <i class="bi bi-x-lg"></i> 
+                                </button>                                 
+                            </div>                             
+                            <div class="mobile-menu__list"></div>                             
+                            <div class="mobile-menu__social social nav-fade"><a href="https://t.me/" target="_blank" aria-label="follow us on telegram" title="telegram"> <i class="bi bi-telegram"></i> </a><a href="https://twitter.com/" target="_blank" aria-label="Follow us on twitter" title="twitter"> <i class="bi bi-twitter"></i> </a>
+            </a>
+                            </div>                             
+                        </nav>                         
+                    </div>                     
+                    <div class="mobile-menu__backdrop"></div>                     
+                    <!-- ==== / mobile menu end ==== -->                     
+                </div>                 
+            </header>             
+            <!-- ==== / header end ==== -->             
+            <!-- ==== offcanvas cart start ==== -->             
+            <!-- ==== / offcanvas cart end ==== -->             
+            <!-- ==== search popup start ==== -->             
+            <div class="search-popup"> 
+                <button class="close-search" aria-label="close search box" title="close search box"> <i class="bi bi-x-lg"></i> 
+                </button>                 
+                <form action="#" method="post"> 
+                    <div class="search-popup__group"> 
+                        <input type="text" name="search-field" id="searchField" placeholder="Enter Product Name" required> 
+                        <button type="submit" aria-label="search products" title="search products"> <i class="bi bi-search"></i> 
+                        </button>                         
+                    </div>                     
+                </form>                 
+            </div>             
+            <!-- ==== / search popup end ==== -->             
+            <!-- ==== offcanvas info start ==== -->             
+            <div class="offcanvas-info"> 
+                <div class="offcanvas-info__inner"> 
+                    <div class="offcanvas-info__intro"> 
+                        <div class="offcanvas-info__logo"> <a href="index.html"> <img src="assets/images/offcanvas-logo.png" alt="Image"> </a> 
+                        </div>                         
+                        <h4>Intelligent Conversations Made Simple</h4> 
+                    </div>                     
+                    <div class="offcanvas-info__form"> 
+                        <h5>Subscribe to newsletter</h5> 
+                        <form action="#" method="post" autocomplete="off"> 
+                            <div class="subscribe-form"> 
+                                <input type="email" name="subscribe-newsletter" id="subscribeNewsletter" placeholder="Email" required> 
+                                <button type="submit" aria-label="subscribe newsletter" title="subscribe newsletter"> <i class="material-symbols-outlined"> 
+                        send </i> 
+                                </button>                                 
+                            </div>                             
+                        </form>                         
+                    </div>                     
+                    <div class="offcanvas-info__footer"> 
+                        <p class="tertiary-text">Follow Us :</p> 
+                        <div class="social"> <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook" title="facebook"> <i class="bi bi-facebook"></i> </a> <a href="https://www.twitter.com/" target="_blank" aria-label="share us on twitter" title="twitter"> <i class="bi bi-twitter"></i> </a> <a href="https://www.linkedin.com/" target="_blank" aria-label="share us on pinterest" title="linkedin"> <i class="bi bi-linkedin"></i> </a> <a href="https://www.instagram.com/" target="_blank" aria-label="share us on instagram" title="instagram"> <i class="bi bi-instagram"></i> </a> 
+                        </div>                         
+                    </div>                     
+                </div>                 
+                <button class="close-offcanvas-info" aria-label="close offcanvas info"> <i class="bi bi-x-lg"></i> 
+                </button>                 
+            </div>             
+            <div class="offcanvas-info-backdrop"></div>             
+            <!-- ==== / offcanvas info end ==== -->             
+            <div id="smooth-wrapper"> 
+                <div id="smooth-content"> 
+                    <!-- ==== main start ==== -->                     
+                    <main> 
+                        <!-- ==== banner start ==== -->                         
+                        <section class="banner-three" data-background="assets/images/banner/banner-three-bg.png"> 
+                            <div class="container"> 
+                                <div class="row justify-content-center"> 
+                                    <div class="col-12 col-md-8 col-lg-7"> 
+                                        <div class="banner-three__content text-center"> 
+                                            <h1 class="fw-7 title-animation">
+    AI-Powered  <span>Gaming Revolution</span> </h1>
+                                            <div class="banner-three__thumb"> 
+                                                <img src="assets/images/headdd_Wondershare3.png" alt="Image"> 
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="banner-t-s-thumb"> 
+                                <img src="assets/images/hg4.png" alt="Image" width="300"> 
+                            </div>                             
+                        </section>                         
+                                            
+                        <!-- ==== banner end ==== -->                         
+                        <!-- ==== text brief start ==== -->                         
+                        <section class="text-brief section pb-0" id="scrollPosition"> 
+                            <div class="container"> 
+                                <div class="row"> 
+                                    <div class="col-12"> 
+                                        <div class="text-brief__inner"> 
+                                            <div class="t-br-one"> 
+                                                <img src="assets/images/0dfb034b.png" alt="Image"> 
+                                                <h2 class="light-title fw-7 text-white title-animation"> Next-Level Gaming with</h2> 
+                                            </div>                                             
+                                            <div class="t-br-two"> 
+                                                <h3 class="light-title fw-7 text-white title-animation">Player Skill-Based </h3> 
+                                                <img src="assets/images/b808fd60.png" alt="Image"> 
+                                            </div>                                             
+                                            <div class="t-br-three"> 
+                                                <img src="assets/images/wheel.png" alt="Image"> 
+                                                <h4 class="light-title fw-7 text-white title-animation">Evolving AI-Model NFT </h4> 
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </section>                         
+                        <!-- ==== / text brief end ==== -->                         
+                        <!-- ==== text slider large start ==== -->                         
+                        <section class="text-slider-large-wrapper section pb-0"> 
+                            <div class="text-slider-large"> 
+                                <div class="text-slider__single"> 
+                                    <h2 class="large-title"> <a href>
+                              Unity <span class="text-stroke" data-text="PlayXAI SDK"> PlayXAI SDK </span> </a></h2> 
+                                </div>                                 
+                                <div class="text-slider__single"> 
+                                    <h2 class="large-title"> <a href>
+                              Unreal <span class="text-stroke" data-text="PlayXAI SDK"> PlayXAI SDK </span> </a></h2> 
+                                </div>                                 
+                                <div class="text-slider__single"> 
+                                    <h2 class="large-title"> <a href>
+                              PlayXAI <span class="text-stroke" data-text="Standalone"> Standalone </span></a> </h2> 
+                                </div>                                 
+                                <div class="text-slider__single"> 
+                                    <h2 class="large-title"> <a href>
+                               PlayXAI<span class="text-stroke" data-text="Custom SDK"> Custom SDK </span></a> </h2> 
+                                </div>                                 
+                            </div>                             
+                        </section>                         
+                        <!-- ==== / text slider large end ==== -->                         
+                        <!-- ==== revolution start ==== -->                         
+                        <section class="section revolution pb-0"> 
+                            <div class="container"> 
+                                <div class="row justify-content-center"> 
+                                    <div class="col-12 col-md-6 col-lg-4"> 
+                                        <div class="revolution__single fade-top"> 
+                                            <div class="thumb"> 
+                                                <img src="assets/images/easy.png" alt="Image"> <span class="tag">Blockchain</span> 
+                                            </div>                                             
+                                            <div class="text-group">
+                                                <h3 class="fw-6 text-white mt-12" style="font-size: 24px; text-transform: uppercase;">
+    Easy Blockchain Integration</h3> 
+                                                <p>Integrating blockchain technology into your gaming projects will soon be effortless with PlayXAI. Our diverse set of SDKs will enable existing games and new creations to harness the benefits of blockchain transparency and security. This ease of integration accelerates game production and enriches the overall player experience.</p>
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                    <div class="col-12 col-md-6 col-lg-4"> 
+                                        <div class="revolution__single fade-top"> 
+                                            <div class="thumb"> 
+                                                <img src="assets/images/aiassist.png" alt="Image"> <span class="tag">AI</span> 
+                                            </div>
+                                            <div class="text-group">
+                                                <h3 class="fw-6 text-white mt-12" style="font-size: 24px; text-transform: uppercase;">
+                AI Gaming Assistant </h3> 
+                                                <p>Improve your gameplay with PlayXAI's built-in AI. Our cutting-edge technology will study your habits and suggest strategies for improvement. Our AI not only helps you improve but also analyzes your opponent's actions to give you a competitive advantage.</p>
+                                            </div>                                             
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4"> 
+                                        <div class="revolution__single fade-top"> 
+                                            <div class="thumb"> 
+                                                <img src="assets/images/cheater.png" alt="Image"> <span class="tag">Security</span> 
+                                            </div>                                             
+                                            <div class="text-group">
+                                                <h3 class="fw-6 text-white mt-12" style="font-size: 24px; text-transform: uppercase;">
+                Cheating Detection </h3> 
+                                                <p>The AI algorithms featured by our platform will be designed to quickly detect cheating behavior. Game data will be exported to the PlayXAI cloud for analysis, requiring no additional CPU resources on your device. Irregular activity will be quickly spotted and reported, ensuring the integrity of every game you play. With PlayXAI, you will be guaranteed a fair and smooth gaming experience without disrupting the performance of your device.</p>
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </section>                         
+                        <section class="section revolution pb-0"> 
+                            <div class="container"> 
+                                <div class="row justify-content-center"> 
+                                    <div class="col-12 col-md-6 col-lg-4"> 
+                                        <div class="revolution__single fade-top"> 
+                                            <div class="thumb"> 
+                                                <img src="assets/images/bai.png" alt="Image"> <span class="tag">Blockchain</span> 
+                                            </div>                                             
+                                            <div class="text-group">
+                                                <h3 class="fw-6 text-white mt-12" style="font-size: 24px; text-transform: uppercase;">
+                Blockchain for Transparency & Security </h3> 
+                                                <p>With PlayXAI, experience a trustworthy and transparent gaming environment. Our blockchain system provides security with all transactions, consistent score recording, and transparent performance tracking. Trust and transparency are the cornerstones of PlayXAI.</p>
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                    <div class="col-12 col-md-6 col-lg-4"> 
+                                        <div class="revolution__single fade-top"> 
+                                            <div class="thumb"> 
+                                                <img src="assets/images/aibot.png" alt="Image"> <span class="tag">AI-model nft</span> 
+                                            </div>
+                                            <div class="text-group">
+                                                <h3 class="fw-6 text-white mt-12" style="font-size: 24px; text-transform: uppercase;">
+                Player-Trained AI-Model NFT & Leaderboard </h3> 
+                                                <p>Delight in an unparalleled gaming experience where each player is granted an AI model, represented as an evolving NFT, that learns from you from the first hour of play. This learning directly influences your NFT's worth. Delegate play to your AI and benchmark its performance on our leaderboard. Upon selling your NFT, the buyer's training alters its value. For instance, an NFT trained by top players will be of high value, but a poor player could diminish it. On selling, you'll receive a new AI model to train anew.</p>
+                                            </div>                                             
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4"> 
+                                        <div class="revolution__single fade-top"> 
+                                            <div class="thumb"> 
+                                                <img src="assets/images/3davatar.png" alt="Image"> <span class="tag">Marketplace</span> 
+                                            </div>
+                                            <div class="text-group"> 
+                                                <h3 class="fw-6 text-white mt-12" style="font-size: 24px; text-transform: uppercase;">
+                Craft and Trade In-Game NFTs with PlayXAI </h3> 
+                                                <p>Build your distinctive gaming persona with PlayXAI. Simply use your phone's camera to create images for conversion into 3D, thus enabling you to craft your own NFT avatar or skin. Alongside the AI model, these avatars or skins can be traded through the in-game NFT marketplace.</p>
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </section>
+                        <!-- ==== / revolution end ==== -->                         
+                        <!-- ==== empower start ==== -->                         
+                        <section class="section empower fade-wrapper"> 
+                            <div class="container"> 
+                                <div class="row align-items-center gaper"> 
+                                    <div class="col-12 col-lg-6 col-xl-5">
+                                        <div class="section__content">
+                                            <span class="sub-title-two text-primary">AR/VR </span>
+                                            <h2 class="title title-animation">Empowering Gamers with AI Technology</h2> 
+                                            <p>Embark on the journey to the future of gaming with PlayXAI. We're  aiming to revolutionize interactive entertainment by harnessing the power of AI technology. PlayXAI aspires to provide tools applicable to any gaming platform, be it traditional or advanced AR/VR.</p>
+                                            <p>Our platform , plans to serve all genres of games, offering adaptive and evolutionary AI capabilities to enhance gameplay. The anticipated intelligent features also cover AR/VR environments, aiming to offer an immersive and distinctive gaming experience.</p>
+                                            <p>We invite you to experience the dynamic potential our under-development technology could bring to the world of gaming. If you're passionate about pioneering next-generation entertainment, click the button below. Show interest in our upcoming SDK and explore the prospect of joining the PlayXAI development journey. Let's shape the future of gaming together!</p>
+                                            <div class="section__content-cta">
+                                                <a href="https://t.me" class="btn btn--primary">Join Our Community</a> 
+                                            </div>
+                                        </div>
+                                    </div>                                     
+                                    <div class="col-12 col-lg-6 col-xl-6 offset-xl-1"> 
+                                        <div class="empower__thumb fade-top"> 
+                                            <img src="assets/images/empo.png" alt="Image"> 
+                                            <div class="content-wrapper"> 
+                                                <div class="content text-center text-xl-end"> <span class="light-title">PlayXAI</span> 
+                                                    <h2>Revolution</h2> 
+                                                </div>                                                 
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </section>                         
+                        <!-- ==== / empower end ==== -->                         
+                        <!-- ==== cta start ==== -->                         
+                        <section class="section cta-two bg-img parallax-bg" data-background="assets/images/cta-two-bg.png"> 
+                            <div class="container"> 
+                                <div class="row justify-content-center"> 
+                                    <div class="col-12 col-lg-6"> 
+                                        <div class="cta-two__inner text-center"> 
+                                            <h2 class="title-animation fw-7 text-white">Unleashing the Power of Intelligent Gameplay</h2> 
+                                            <div class="section__content-cta"> <a href="https://x.com" class="btn btn--primary">Follow US</a> 
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </section>                         
+                        <!-- ==== / cta end ==== -->                         
+                        <!-- ==== gaming start ==== -->                         
+                        <section class="section pb-0 gaming"> 
+                            <div class="container"> 
+                                <div class="row"> 
+                                    <div class="col-12"> 
+                                        <div class="section__header--secondary"> 
+                                            <div class="row align-items-center justify-content-center gaper"> 
+                                                <div class="col-12 col-md-8 col-lg-6 col-xl-6"> 
+                                                    <div class="section__header mb-0 text-center text-lg-start"> <span class="sub-title-two text-primary">Upgrade Gaming</span> 
+                                                        <h2 class="title title-animation">Experience Next-Level Gameplay like Never Before</h2> 
+                                                    </div>                                                     
+                                                </div>                                                 
+                                                <div class="col-12 col-md-8 col-lg-6 col-xl-5 offset-xl-1"> 
+                                                    <div class="text-center text-lg-start"> 
+                                                        <p>Our goal is to provide developers with a solution that's easy to integrate and drives unprecedented player satisfaction and engagement. Our services will enable seamless integration process, fostering exceptional gamer experiences and heightened player engagement.</p> 
+                                                    </div>                                                     
+                                                </div>                                                 
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </section>                         
+                        <!-- ==== / gaming end ==== -->                         
+                        <!-- ==== sponsor start ==== -->                         
+                        <div class="sponsor section overflow-hidden"> 
+                            <div class="sponsor__slider"> 
+                                <div class="sponsor__single text-center"> 
+                                    <img src="assets/images/enginaiwhite.png" alt="Image"> 
+                                </div>                                 
+                                <div class="sponsor__single text-center"> 
+                                    <img src="assets/images/unreallogo.png" alt="Image"> 
+                                </div>                                 
+                                <div class="sponsor__single text-center"> 
+                                    <img src="assets/images/unitylogo_Wondershare.png" alt="Image"> 
+                                </div>                                 
+                                <div class="sponsor__single text-center"> 
+                                    <img src="assets/images/o3de.png" alt="Image"> 
+                                </div>                                 
+                                <div class="sponsor__single text-center"> 
+                                    <img src="assets/images/enginaiwhite.png" alt="Image"> 
+                                </div>                                 
+                                <div class="sponsor__single text-center"> 
+                                    <img src="assets/images/unreallogo.png" alt="Image"> 
+                                </div>                                 
+                                <div class="sponsor__single text-center"> 
+                                    <img src="assets/images/unitylogo_Wondershare.png" alt="Image"> 
+                                </div>                                 
+                                <div class="sponsor__single text-center"> 
+                                    <img src="assets/images/o3de.png" alt="Image"> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <!-- ==== / sponsor end ==== -->                         
+                        <!-- ==== review start ==== -->                         
+                        <!-- ==== / review end ==== -->                         
+                        <!-- ==== pricing start ==== -->                         
+                        <!-- ==== / pricing end ==== -->                         
+                        <!-- ==== showcase start ==== -->                         
+                        <div class="section showcase"> 
+                            <div class="showcase__slider"> 
+                                <div class="showcase__single"> 
+                                    <img src="assets/images/f1.png" alt="Image"> 
+                                </div>                                 
+                                <div class="showcase__single"> 
+                                    <img src="assets/images/f8.png" alt="Image"> 
+                                </div>                                 
+                                <div class="showcase__single"> 
+                                    <img src="assets/images/f2.png" alt="Image"> 
+                                </div>                                 
+                                <div class="showcase__single"> 
+                                    <img src="assets/images/f7.png" alt="Image"> 
+                                </div>                                 
+                                <div class="showcase__single"> 
+                                    <img src="assets/images/f3.png" alt="Image"> 
+                                </div>                                 
+                                <div class="showcase__single"> 
+                                    <img src="assets/images/f6.png" alt="Image"> 
+                                </div>                                 
+                                <div class="showcase__single"> 
+                                    <img src="assets/images/f2.png" alt="Image"> 
+                                </div>                                 
+                                <div class="showcase__single"> 
+                                    <img src="assets/images/f5.png" alt="Image"> 
+                                </div>                                 
+                                <div class="showcase__single"> 
+                                    <img src="assets/images/f1.png" alt="Image"> 
+                                </div>                                 
+                                <div class="showcase__single"> 
+                                    <img src="assets/images/f8.png" alt="Image"> 
+                                </div>                                 
+                                <div class="showcase__single"> 
+                                    <img src="assets/images/f2.png" alt="Image"> 
+                                </div>                                 
+                                <div class="showcase__single"> 
+                                    <img src="assets/images/f7.png" alt="Image"> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <!-- ==== / showcase end ==== -->
+                        <section class="service-banner"> 
+                            <div class="container"> 
+                                <div class="row gaper align-items-center"> 
+                                    <div class="col-12 col-md-8"> 
+                                        <div class="service-banner__content section__content"> 
+                                            <h2 class="light-title title-animation fw-7 text-white"> 
+                                    Advancing to a New Era: The Future of Gaming with <span class="text-primary">Engin</span><span class="text-primary text-uppercase">AI</span> </h2> 
+                                        </div>                                         
+                                    </div>                                     
+                                    <div class="col-12 col-md-4 d-none d-md-block"> 
+                                        <div class="service-banner__thumb parallax-img text-center"> 
+                                            <img src="assets/images/service-thumb.png" alt="Image"> 
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </section>                         
+                        <!-- ==== / banner end ==== -->                         
+                        <!-- ==== text slider large start ==== -->                         
+                        <section class="text-slider-large-wrapper alter-text-large"> 
+                            <div class="text-slider-large"> 
+                                <div class="text-slider__single"> 
+                                    <h2 class="large-title"> 
+                              Faster for Developers </h2> 
+                                </div>                                 
+                                <div class="text-slider__single"> 
+                                    <h2 class="large-title"> <span class="text-stroke" data-text="Epic Play"> Epic Play</span> </h2> 
+                                </div>                                 
+                                <div class="text-slider__single"> 
+                                    <h2 class="large-title"> 
+                              Incredible for Gamers </h2> 
+                                </div>                                 
+                                <div class="text-slider__single"> 
+                                    <h2 class="large-title"> <span class="text-stroke" data-text="Fast Dev"> Fast Dev</span> </h2> 
+                                </div>                                 
+                            </div>                             
+                        </section>                         
+                        <!-- ==== / text slider large end ==== -->                         
+                        <!-- ==== service main start ==== -->                         
+                                             
+                        <section class="section h-s-case-alter fade-wrapper" data-background="assets/images/s-j-bg.png"> 
+                            <div class="container"> 
+                                <div class="row gaper"> 
+                                    <div class="col-12 col-md-6 fade-top"> 
+                                        <div class="h-s-case-single topy-tilt"> 
+                                            <div class="thumb"> 
+                                                <img src="assets/images/unityv2.png" alt="Image"> 
+                                            </div>                                             
+                                            <div class="h-case-content"> 
+                                                <div class="case-title"> 
+                                                    <h2 class="light-title"> <a href="#">in progress</a> </h2> 
+                                                </div>                                                 
+                                                <div class="h-c-continent" style="background-color: black; color: white;"> 
+                                                    <p>Our Unity Engine integration and SDK are in progress. Join us in shaping this groundbreaking development journey!</p> <a href="https://ifrices-organization.gitbook.io/playx-ai/" class="cta" style="color: white;"> <span class="arrow"></span> </a> 
+                                                </div>                                                 
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                    <div class="col-12 col-md-6 fade-top"> 
+                                        <div class="h-s-case-single topy-tilt"> 
+                                            <div class="thumb"> 
+                                                <img src="assets/images/unreal2.png" alt="Image"> 
+                                            </div>                                             
+                                            <div class="h-case-content"> 
+                                                <div class="case-title"> 
+                                                    <h2 class="light-title"> <a href="#">in progress</a> </h2> 
+                                                </div>                                                 
+                                                <div class="h-c-continent" style="background-color: black; color: white;">
+                                                    <p>Our Unreal Engine integration and SDK are under development. Become a part of this exciting innovation!</p> <a href="https://ifrices-organization.gitbook.io/playx-ai/" class="cta" style="color: white;"> <span class="arrow"></span> </a> 
+                                                </div>                                                 
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                    <div class="col-12 col-md-6 fade-top"> 
+                                        <div class="h-s-case-single topy-tilt"> 
+                                            <div class="thumb"> 
+                                                <img src="assets/images/enginair2.png" alt="Image"> 
+                                            </div>                                             
+                                            <div class="h-case-content"> 
+                                                <div class="case-title"> 
+                                                    <h2 class="light-title"> <a href="#">in progress</a> </h2> 
+                                                </div>                                                 
+                                                <div class="h-c-continent" style="background-color: black; color: white;">
+                                                    <p>Based on Open 3D Engine (O3DE), enhanced with comprehensive AI capabilities. It operates independently, without reliance on add-ins.</p> <a href="https://ifrices-organization.gitbook.io/playx-ai/" class="cta" style="color: white;"> <span class="arrow"></span> </a> 
+                                                </div>                                                 
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                    <div class="col-12 col-md-6 fade-top"> 
+                                        <div class="h-s-case-single  topy-tilt"> 
+                                            <div class="thumb"> 
+                                                <img src="assets/images/4.png" alt="Image"> 
+                                            </div>                                             
+                                            <div class="h-case-content"> 
+                                                <div class="case-title"> 
+                                                    <h2 class="light-title"> <a href="#">custom request</a> </h2> 
+                                                </div>                                                 
+                                                <div class="h-c-continent"> 
+                                                    <p>For all your custom request, feel free to reach out to us!</p> <a href="https://ifrices-organization.gitbook.io/playx-ai/" class="cta"> <span class="arrow"></span> </a> 
+                                                </div>                                                 
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </section>                         
+                    </main>                     
+                    <!-- ==== / main end ==== -->                     
+                    <!-- ==== footer start ==== -->                     
+                    <footer class="footer-cmn"> 
+                        <div class="container"> 
+                            <div class="row"> 
+                                <div class="col-12"> 
+                                    <div class="footer-cmn__cta text-center appear-down"> 
+                                        <h2 class="title fw-7 title-animation">Join Us Today</h2> 
+                                        <div class="section__content-cta"> <a href="https://ifrices-organization.gitbook.io/playx-ai/" class="btn btn--primary">Docs</a> 
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row"> 
+                                <div class="col-12"> 
+                                    <div class="footer-cmn__inner section "> 
+                                        <div class="row  gaper"> 
+                                            <div class="col-12 col-lg-7 col-xl-8"> 
+                                                <div class="footer-cmn__left text-center text-lg-start"> <a href="index.html" class="logo"> <img src="assets/images/Enginai.png" alt="Image" style="width:450px;"> </a> 
+                                                    <div class="footer__nav-list"> 
+                                                        <ul class="justify-content-center justify-content-lg-start"> 
+                                                            <li> <a href="index.html">Home</a> 
+                                                            </li>                                                             
+                                                            <li> <a href="PlayXAI-Whitepaper.pdf">Doc</a> 
+                                                            </li>  
+                                                        </ul>                                                         
+                                                    </div>                                                     
+                                                </div>                                                 
+                                            </div>                                             
+                                            <div class="col-12 col-lg-5 col-xl-4"> 
+                                                <div class="offcanvas-info__form"> 
+                                                    <h5 class="text-white text-center text-lg-start">Subscribe to newsletter</h5> 
+                                                    <form action="#" method="post" autocomplete="off" id="myForm"> 
+                                                        <div class="subscribe-form"> 
+                                                            <input type="email" name="subscribe-newsletter" id="subscribeNewsletterTwo" placeholder="Email" required> 
+                                                            <button type="submit" aria-label="subscribe newsletter" title="subscribe newsletter">
+                                                                <i class="material-symbols-outlined">send</i> 
+                                                            </button>                                                             
+                                                        </div>
+                                                        <div class="loader" style="display: none;"></div>
+                                                        <p id="successMessage" style="display: none;">Thank you for subscribing to our newsletter!</p> 
+                                                    </form>                                                     
+                                                    <style>.loader { border: 16px solid #f3f3f3; border-top: 16px solid #3498db; border-radius: 50%; width: 60px; height: 60px; animation: spin 2s linear infinite; } @keyframes spin { 0% {  transform: rotate(0deg); }  100% {  transform: rotate(360deg); } }</style>
+                                                </div>                                                 
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="footer__copyright"> 
+                            <div class="container"> 
+                                <div class="row gaper"> 
+                                    <div class="col-12 col-lg-6"> 
+                                        <div class="footer__copyright-content text-center text-lg-start"> 
+                                            <p> 
+                                    Copyright &copy; <span id="copyrightYear"></span> <a href="index.html">PlayXAI</a> 
+                                    . All Rights Reserved </p> 
+                                        </div>                                         
+                                    </div>                                     
+                                    <div class="col-12 col-lg-6"> 
+                                        <div class="footer__copyright-social justify-content-center justify-content-lg-end"> 
+                                            <p class="tertiary-text d-none d-lg-block">Follow Us :</p> 
+                                            <div class="social"> <a href="https://t.me/" target="_blank" aria-label="follow us on telegram" title="telegram"> <i class="bi bi-telegram"></i> </a> <a href="https://twitter.com/" target="_blank" aria-label="Follow us on twitter" title="twitter"> <i class="bi bi-twitter"></i> </a>
+            </a>
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </footer>                     
+                    <!-- ==== / footer end ==== -->                     
+                </div>                 
+            </div>             
+            <!-- ==== scroll to top start ==== -->             
+            <button class="progress-wrap" aria-label="scroll indicator" title="go to top"> <span></span> 
+                <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102"> 
+                    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/> 
+                </svg>                 
+            </button>             
+            <!-- ==== / scroll to top end ==== -->             
+        </div>         
+        <!-- ==== js dependencies start ==== -->         
+        <!-- jquery -->         
+        <script src="assets/vendor/jquery/jquery-3.7.0.min.js"></script>         
+        <!-- bootstrap five js -->         
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>         
+        <!-- magnific popup js -->         
+        <script src="assets/vendor/magnific-popup/js/jquery.magnific-popup.min.js"></script>         
+        <!-- jquery ui js -->         
+        <script src="assets/vendor/jquery-ui/js/jquery-ui.min.js"></script>         
+        <!-- slick js -->         
+        <script src="assets/vendor/slick/js/slick.min.js"></script>         
+        <!-- odometer js -->         
+        <script src="assets/vendor/odometer/js/odometer.min.js"></script>         
+        <!-- image loaded js -->         
+        <script src="assets/vendor/images-loaded/imagesloaded.pkgd.min.js"></script>         
+        <!-- isotope js -->         
+        <script src="assets/vendor/isotope/isotope.pkgd.min.js"></script>         
+        <!-- packery js -->         
+        <script src="assets/vendor/isotope/packery.pkgd.min.js"></script>         
+        <!-- splittext js -->         
+        <script src="assets/vendor/gsap/SplitText.min.js"></script>         
+        <!-- scrollsmoother js -->         
+        <script src="assets/vendor/gsap/ScrollSmoother.min.js"></script>         
+        <!-- scrollto js -->         
+        <script src="assets/vendor/gsap/ScrollToPlugin.min.js"></script>         
+        <!-- scrolltrigger js -->         
+        <script src="assets/vendor/gsap/ScrollTrigger.min.js"></script>         
+        <!-- gsap js -->         
+        <script src="assets/vendor/gsap/gsap.min.js"></script>         
+        <!-- viewport js -->         
+        <script src="assets/vendor/viewport/viewport.jquery.js"></script>         
+        <!-- vanilla tilt js -->         
+        <script src="assets/vendor/vanilla-tilt/tilt.jquery.js"></script>         
+        <!-- particle js -->         
+        <script src="assets/vendor/particle-js/particles.min.js"></script>         
+        <!-- ==== / js dependencies end ==== -->         
+        <!-- plugins js -->         
+        <script src="assets/js/plugins.js"></script>         
+        <!-- main js -->         
+        <script src="assets/js/main.js"></script>         
+        <script>
+document.getElementById('closeMessage').addEventListener('click', function() {
+    this.parentNode.style.display = 'none';
+});
+</script>
+        <script>
+document.querySelector('#myForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const loader = document.querySelector('.loader');
+  const successMessage = document.querySelector('#successMessage');
+  loader.style.display = 'block'
+  
+  setTimeout(function() {
+    loader.style.display = 'none';
+    successMessage.style.display = 'block';
+ }, 2000); // Attente de 3 secondes
+});
+</script>         
+    </body>     
+</html>
